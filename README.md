@@ -58,26 +58,6 @@ public class PasswordService {
 
 ---
 
-## 🧪 Exemplos de Testes (Sugestão)
-
-```java
-@Test
-void testValidPassword() {
-    PasswordService service = new PasswordService();
-    List<String> result = service.validate("A1@bcdEf");
-    assertTrue(result.isEmpty());
-}
-
-@Test
-void testMissingUppercase() {
-    PasswordService service = new PasswordService();
-    List<String> result = service.validate("a1@bcdef");
-    assertTrue(result.contains("A senha deve possuir pelo menos uma letra maiúscula."));
-}
-```
-
----
-
 ## 🛡️ Observações
 
 - A validação é **estática** e sem dependência de banco de dados.
