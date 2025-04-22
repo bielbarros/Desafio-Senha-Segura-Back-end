@@ -32,7 +32,7 @@ Cada critério de validação é implementado em métodos separados e reutilizá
 
 ### Exemplo de Saída:
 
-```java
+```bash
 [
   "A senha deve possuir pelo menos uma letra maiúscula.",
   "A senha deve possuir pelo menos um caractere especial."
@@ -43,7 +43,7 @@ Cada critério de validação é implementado em métodos separados e reutilizá
 
 ## 📂 Estrutura da Classe
 
-```java
+```bash
 public class PasswordService {
     
     public List<String> validate(String pass) { ... }
